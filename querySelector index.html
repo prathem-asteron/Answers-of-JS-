@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>querySelector Example</title>
+</head>
+<body>
+
+    <p class="myClass">Hello!</p>
+    <p class="myClass">Hi!</p>
+    <button onclick="changeText()">Click Me</button>
+
+    <script>
+        function changeText() {
+            document.querySelector(".myClass").textContent = "First One Changed!";
+        }
+    </script>
+
+</body>
+</html>

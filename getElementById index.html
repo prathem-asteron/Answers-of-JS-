@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementById Example</title>
+</head>
+<body>
+
+    <p id="para1">This is a paragraph with an ID.</p>
+    <button onclick="changeText()">Click Me</button>
+
+    <script>
+        function changeText() {
+            document.getElementById("para1").textContent = "Changed using getElementById!";
+        }
+    </script>
+
+</body>
+</html>

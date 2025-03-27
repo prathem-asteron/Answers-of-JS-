@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>getElementsByClassName Example</title>
+</head>
+<body>
+
+    <p class="myClass">Hello!</p>
+    <p class="myClass">Hi!</p>
+    <button onclick="changeText()">Click Me</button>
+
+    <script>
+        function changeText() {
+            let elements = document.getElementsByClassName("myClass");
+            elements[1].textContent = "First Text Changed!";
+        }
+    </script>
+
+</body>
+</html>
